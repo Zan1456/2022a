@@ -117,3 +117,12 @@ d3={"nev": "dobostorata",
     }
 print(d3["szeletek"])
 ```
+### Tuple
+```Python
+t1=()
+t2=("banan", "barack")
+```
+### Set
+```Python
+s={"Hétfő", "Kedd"}
+```
