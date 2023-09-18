@@ -1,6 +1,6 @@
 # Programozás óra 3. óra 2023.09.18
 
-## Egyszerű függvény
+### Egyszerű függvény
 
 ```Python
 def Kiir(srt):
