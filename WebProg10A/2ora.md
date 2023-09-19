@@ -26,9 +26,8 @@ CSS 11-18
         <title>Cím</title>
     </head>
     <body>
+        # Szöveg formázás
         <p>
-        <abbr title="Fertődi">FNNKIK</abbr>-ban.</p>
-        <tag paraméter1="érték1" logikaiparaméter></tag>
         <i> <!-- dőlt (kézírásra emlékeztető) betű-->
         <em> <!-- hangsúlyos kiemelés-->
         <b> <!-- félkövér betű-->
@@ -43,7 +42,34 @@ CSS 11-18
         <sup> <!-- Felső index-->
         <br> <!-- sortörés-->
         <span> <!-- karakterek formázására-->
-        3-as fejezet vége
+        <h1> <h2> <h3> <h4> <h5> <h6> <!-- Címsorok megadása-->
+        #Elemek
+        <p> <!-- Bekezdés-->
+        <div> <!-- Blokk definiálása-->
+        <hr> <!-- Vízszintes elválasztó-->
+        <ol> <!-- Sorszámozott lista-->
+        <ul> <!-- Szám nélküli lista-->
+        <li> <!-- Lista elem-->
+        <img> <!-- Kép-->
+        <embed> <!-- Beágyazott keret-->
+        <iframe> <!-- Külső tartalom beágyazása-->
+        # Részek
+        <body> <!-- Dokumentum törzse-->
+        <main> <!-- Fő tartalmi egység meghatározása-->
+        <header> <!-- fejléc megadása-->
+        <footer> <!-- lábléc-->
+        <section> <!-- szakasz-->
+        <nav> <!-- navigációs elemek-->
+        # Táblázatok
+        <table> <!-- Táblázat, colspan, rowspan-->
+        <tr> <!-- Táblázat sor-->
+        <th> <!-- Táblázat fejléce-->
+        <td> <!-- Táblázat testrésze-->
+        # Úrlapok
+        <form> <!-- Űrlap létrehozása-->
+        <input type=""> <!--  Űrlap elküldése, illetve alapállapotba hozása: text, search,password, email, url, tel, checkbox, radio, number, range, color, file, image, submit, reset, hidden, button-->
+        <textarea> <!-- Szövegterület létrehozása-->
+        <label> <!--  Címke használata-->
     </body>
 </html>
 ```
