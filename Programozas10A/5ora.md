@@ -52,3 +52,7 @@
 - Felhasználói
 
 ### 9. Használat, karbantartás
+
+## Struktogram
+
+![Rajz](5-1.png)
