@@ -26,7 +26,7 @@
         - Rajzos leírás
             - Strugtogram
             - Folyamat ábra
-            
+
 ### 3. Kódolás (Reprezentáció, implementáció)
 
 - Robert L. Martin
@@ -36,3 +36,19 @@
 - Hibalista
 - Test Driven Development
 - Unit
+
+### 5. Hibakeresés
+
+- Hiba helye
+- Hiba oka
+
+### 6. Hibajavítás
+
+### 7. Minőségjavítás, hatékonyság növelés
+
+### 8. Dokumentálás
+
+- Fejlesztői
+- Felhasználói
+
+### 9. Használat, karbantartás
