@@ -56,3 +56,8 @@
 ## Struktogram
 
 ![Rajz](5-1.png)
+
+## Összegzés
+- x: Tömb, lista (Ő tárolja az adatokat)
+- s: Változó (Ő tárolja az összeget)
+- 1...N: Lista indexei
