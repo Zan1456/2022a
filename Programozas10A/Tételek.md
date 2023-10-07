@@ -42,7 +42,7 @@ Ciklus I=2-től N-ig
 Ciklus vége
 ```
 
-![kep](tetel-legnagyobb.png)
+![kep](Tetel-legnagyobb.png)
 
 ### Keresés
 - Elemek száma: N
@@ -60,4 +60,4 @@ Ha VAN
     SORSZ:=I
 ```
 
-![kep](tetel-kereses.png)
+![kep](Tetel-kereses.png)
