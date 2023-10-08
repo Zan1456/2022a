@@ -13,13 +13,16 @@ Ciklus vége
 ![asd](Tetelek/osszegzes.png)
 
 ### Megszámlálás
-c: változó, azok darabszáma, melyekre igaz T
-T: feltétel, igaz/hamis
+- Elemek száma: N
+- Számok: X N db elem
+- Változó: C (Tárolja, hogy hány db-ra igaz a T feltétel)
+- T: Igaz/Hamis értékű feltétel
 
 ```Python
 C:=0
 Ciklus I=1-től N-ig
-    Ha T(X[I]) akkor C:=C+1
+    Ha T(X[I])
+        C:=C+1
 Ciklus vége
 ```
 
