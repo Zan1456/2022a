@@ -21,7 +21,8 @@ Ciklus vége
 ```Python
 C:=0
 Ciklus I=1-től N-ig
-    Ha T(X[I]) akkor C:=C+1
+    Ha T(X[I])
+        C:=C+1
 Ciklus vége
 ```
 
