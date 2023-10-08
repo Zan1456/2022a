@@ -1,4 +1,5 @@
-## Összegzés tétele
+## Edit: Használjatok sötét módot :)
+### Összegzés tétele
 - Elemek száma: N
 - Számok: X N db elem
 - Változó: S (Tárolja az összeget)
