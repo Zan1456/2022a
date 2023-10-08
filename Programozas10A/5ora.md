@@ -55,7 +55,7 @@
 
 ## Struktogram
 
-![Rajz](5-1.png)
+![Rajz](5ora/5-1.png)
 
 ## Összegzés tétele
 - x: Tömb, lista (Ő tárolja az adatokat)
@@ -80,7 +80,7 @@ for i in range(len(x)):
     s=s+x[i]
 ```
 
-![Rajz](5-2.png)
+![Rajz](5ora/5-2.png)
 
 ### Megszámlálás
 c: változó, azok darabszáma, melyekre igaz T

@@ -10,7 +10,7 @@ Ciklus I=1-től N-ig
 Ciklus vége
 ```
 
-![asd](Tetel-osszegzes.png)
+![asd](Tetelek/osszegzes.png)
 
 ### Megszámlálás
 c: változó, azok darabszáma, melyekre igaz T
@@ -23,7 +23,7 @@ Ciklus I=1-től N-ig
 Ciklus vége
 ```
 
-![asd](Tetel-megszamlalas.png)
+![asd](Tetelek/megszamlalas.png)
 
 ### Legnagyobb érték
 - Elemek száma: N
@@ -42,7 +42,7 @@ Ciklus I=2-től N-ig
 Ciklus vége
 ```
 
-![kep](Tetel-legnagyobb.png)
+![kep](Tetelek/legnagyobb.png)
 
 ### Keresés
 - Elemek száma: N
@@ -60,4 +60,4 @@ Ha VAN
     SORSZ:=I
 ```
 
-![kep](Tetel-kereses.png)
+![kep](Tetelek/kereses.png)
