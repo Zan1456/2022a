@@ -13,8 +13,8 @@ Ciklus vége
 ![asd](Tetelek/osszegzes.png)
 
 ### Megszámlálás
-c: változó, azok darabszáma, melyekre igaz T
-T: feltétel, igaz/hamis
+- c: változó, azok darabszáma, melyekre igaz T
+- T: feltétel, igaz/hamis
 
 ```Python
 C:=0
