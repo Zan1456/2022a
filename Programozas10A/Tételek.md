@@ -1,4 +1,4 @@
-## Edit: Használjatok sötét módot :)
+# Programozási tételek:
 ### Összegzés tétele
 - Elemek száma: N
 - Számok: X N db elem

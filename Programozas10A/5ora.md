@@ -57,7 +57,9 @@
 
 ![Rajz](5ora/5-1.png)
 
-## Összegzés tétele
+## Programozási tételek
+
+### Összegzés tétele
 - x: Tömb, lista (Ő tárolja az adatokat)
 - s: Változó (Ő tárolja az összeget)
 - 1...N: Lista indexei
