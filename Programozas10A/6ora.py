@@ -9,8 +9,9 @@ else:
 '''
 
 # Kérj be egy szót és ellenőrizd, hogy van-e benne a betű.
-szo=input("Adj meg egy szót: ")
-if "a" in szo:
-    print("Van benne a betű")
-else:
-    print("Nincs benne a betű")
+str="körte"
+N=len(str)
+i = 0
+while i < N and not str[i] == "a":
+    i=i+1
+van=i<N
