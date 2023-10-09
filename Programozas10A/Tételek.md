@@ -1,5 +1,7 @@
-# Programozási tételek:
-### Összegzés tétele
+# Programozási tételek
+
+## Összegzés tétele
+
 - Elemek száma: N
 - Számok: X N db elem
 - Változó: S (Tárolja az összeget)
@@ -13,7 +15,8 @@ Ciklus vége
 
 ![asd](Tetelek/osszegzes.png)
 
-### Megszámlálás
+## Megszámlálás
+
 - Elemek száma: N
 - Számok: X N db elem
 - Változó: C (Tárolja, hogy hány db-ra igaz a T feltétel)
@@ -29,7 +32,8 @@ Ciklus vége
 
 ![asd](Tetelek/megszamlalas.png)
 
-### Legnagyobb érték
+## Legnagyobb érték
+
 - Elemek száma: N
 - Számok: X N db elem
 - MAX: Legnagyobb érték indexe
@@ -48,7 +52,8 @@ Ciklus vége
 
 ![kep](Tetelek/legnagyobb.png)
 
-### Keresés
+## Keresés
+
 - Elemek száma: N
 - Számok: X N db elem
 - VAN: változó I/H értékkel
