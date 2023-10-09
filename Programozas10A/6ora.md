@@ -1,5 +1,6 @@
 # Programozás óra 6. óra 2023.10.09
 
+### Eldöntés
 ```Python
 i := 1
 Ciklus i <= N and not T(x[i])
@@ -18,3 +19,13 @@ flowchart TD
 flowchart Top-Down vagy Left-Right
 
 ![asd](6-1.png)
+
+### Kiválasztás
+```Python
+i := 1
+nem T(x[i])
+    i := i+1
+ind := i
+érték := x[i]
+```
+![asd](6-2.png)
