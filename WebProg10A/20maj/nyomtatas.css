@@ -6,6 +6,7 @@ body{
   background-position: center;
   height: 250px;
   padding-top: 75px;
+  background-image: url("drukletters.jpg");
 }
 
 .bg-fej h1{
@@ -42,3 +43,8 @@ a {
   visibility:hidden;
 }
 
+input {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  vertical-align: middle;
+}
