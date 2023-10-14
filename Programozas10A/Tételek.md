@@ -1,5 +1,7 @@
 # Programozási tételek
 
+> Frissítve 2023.10.14. 17:30
+
 ## Összegzés tétele
 
 - Elemek száma: N
@@ -70,3 +72,39 @@ Ha VAN
 ```
 
 ![kep](Tetelek/kereses.png)
+
+## Eldöntés
+
+- Elemek száma: N
+- Számok: X N db elem
+- VAN: változó I/H értékkel
+- T: Hamis értékű változó
+
+```Python
+I := 1
+Ciklus I <= N és nem T(x[i])
+    I := I + 1
+Ciklus vége
+VAN := I <= N
+```
+
+![asd](Tetelek/eldontes.png)
+
+## Kiválasztás
+
+- Számok: X N db elem
+- VAN: változó I/H értékkel
+- T: Hamis értékű változó
+
+```Python
+I := 1
+Ciklus amíg nem T(X[I])
+    I := I + 1
+Ciklus vége
+SORSZ := I
+ÉRTÉK := x[i]
+```
+
+![asd](Tetelek/kivalasztas.png)
+
+[Forrás](http://progalap.elte.hu/downloads/seged/eTananyag/lecke13_lap1.html)

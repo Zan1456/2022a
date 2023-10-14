@@ -20,7 +20,7 @@ flowchart TD
 
 flowchart Top-Down vagy Left-Right
 
-![asd](6-1.png)
+![asd](6ora/1.png)
 
 ## Kiválasztás
 
@@ -32,4 +32,4 @@ ind := i
 érték := x[i]
 ```
 
-![asd](6-2.png)
+![asd](6ora/2.png)
