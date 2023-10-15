@@ -69,14 +69,23 @@
 
 ## Programozási tételek
 
+### Tételek lényege
+- Célja:
+    - Bizonyíthatóan helyes sablon, amelyer magasabb szinten lehet építeni a megoldást. (A fejlesztés gyorsabb és biztonságosabb.)
+- Szerkezete:
+    - absztrakt feladat specifikáció
+    - absztrakt algoritmus
+- Kritérium:
+    - A bemenet legalább egy sorozat
+
 ### Összegzés tétele
 - x: Tömb, lista (Ő tárolja az adatokat)
 - s: Változó (Ő tárolja az összeget)
-- 1...N: Lista indexei
+- 1..N: Lista indexei
 
 s := 0
-I = i..N
-    s := s+x[i]
+I = 1..N
+    s := s+x[I]
 
 ### Összeszorzás
 
@@ -100,7 +109,7 @@ T: feltétel, igaz/hamis
 
 c := 0
 c = 1..N
-T (x[i])
+T(x[i])
 c:=c+1
 
 ```Python
