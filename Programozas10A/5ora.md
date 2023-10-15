@@ -1,31 +1,37 @@
 # Programozás óra 5. óra 2023.10.02
 
-### 1. Specifikáció (Miből? Mit?)
+## Proramkészítés folyamata
 
-- Bemenő adatok
-- Előfeltétel (Ismeret a bemenetről)
-- Eredmény
-- Utófeltétel (Eredményt meghatározó)
-- Használt fogalmak
-- Megoldással szembeni követelmények
-- Korlátozó tényezők
+### 1. Specifikáció (Miből? Mit?) - specifikáció
+- Célja
+    - Feladat formalizálása
+        - A megszerzett információkat összegzi
+- Összetevői
+    - Bemenő adatok
+    - Előfeltétel (Ismeret a bemenetről)
+    - Eredmény
+    - Utófeltétel (Eredményt meghatározó)
+    - Használt fogalmak
+    - Megoldással szembeni követelmények
+    - Korlátozó tényezők
 
 ### 2. Tervezés (Mivel? Hogyan?) - adat + algoritmus
 
 - Algoritmus
-    - Elemi tevékenységek
+    - Elemi tevékenységek:
         - Értékeladás, beolvasás, kiírás
-    - Összetett tevékenységek
-        - Szekvencia
+    - Összetevői:
+        - Szekvencia (egymás utáni végrehajtás)
         - Elágazás
-        - Alprogram
+        - Ciklus
+        - Alprogram (összetett tevékenység egyedi néven)
     - Algoritmus leíró nyelvek
         - Szöveges leírás
             - Mondatokkal való leírás
-            - Mondat szerű elemekkel (Szerudo kód)
+            - Mondatszerű elemekkel - pszeudokód
         - Rajzos leírás
-            - Strugtogram
-            - Folyamat ábra
+            - Folyamatábra
+            - Struktogram
 
 ### 3. Kódolás (Reprezentáció, implementáció)
 
@@ -44,16 +50,20 @@
 
 ### 6. Hibajavítás
 
-### 7. Minőségjavítás, hatékonyság növelés
+### 7. Minőségjavítás, hatékonyság növelés (jobbítható-e?, hogyan?)
 
-### 8. Dokumentálás
+### 8. Dokumentálás (hogyan működik)
 
 - Fejlesztői
 - Felhasználói
 
-### 9. Használat, karbantartás
+### 9. Használat, karbantartás (még mindig jó?)
 
 ## Struktogram
+
+- Kék: Szekvencia
+- Zöld: Elágazások
+- Piros: Ciklusok
 
 ![Rajz](5ora/5-1.png)
 
