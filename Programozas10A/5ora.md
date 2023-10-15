@@ -101,8 +101,6 @@ for i in range(len(x)):
     s=s+x[i]
 ```
 
-![Rajz](5ora/5-2.png)
-
 ### Megszámlálás
 c: változó, azok darabszáma, melyekre igaz T
 T: feltétel, igaz/hamis
@@ -154,3 +152,5 @@ while i <= N and not(T(x[i])):
 van i <= N
 if van:
 ```
+
+![Rajz](5ora/5-2.png)
