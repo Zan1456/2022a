@@ -19,7 +19,22 @@ print(x+1)
 
 print(0o123) #8-as számrendszer
 print(0xABBA) #16-os számrendszer
+print(0b11000000) #2-es számrendszer
 
-x=43
-# 16-os számrendszerbe váltás
-y="0x"+x
+x = int("345", 8) # Átváltás 10-es számrendszerbe
+print(x)
+
+x = oct(321) # Átváltás 8-as számrendszerbe
+print(x)
+
+x = hex(40096) # Átváltás 16-os számrendszerbe
+print(x)
+
+x = bin(192) # Átváltás 2-es számrendszerbe
+print(x)
+
+x = 1e-08 # 10 8. hatványára való emelés
+
+str = 'Anya azt mondta, hogy: "Érj haza időben"'
+print(str)
+str = "Anya azt mondta, hogy: \"Érj haza időben\""
