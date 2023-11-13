@@ -38,3 +38,14 @@ x = 1e-08 # 10 8. hatványára való emelés
 str = 'Anya azt mondta, hogy: "Érj haza időben"'
 print(str)
 str = "Anya azt mondta, hogy: \"Érj haza időben\""
+
+print(9 % 6 % 2)
+a = 1
+A = 2
+print(a, A) # 1, 2
+
+def abba():
+    print("asd")
+abba = "sss"
+print(abba)
+print(abba())
