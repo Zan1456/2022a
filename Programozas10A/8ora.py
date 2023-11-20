@@ -68,9 +68,29 @@ print(True or False or False)
 
 print( 1 and 0 )
 print( 1 and 1 )
-print( (1 and 1) and (1 and 1))
-print( (1 and 1) and (1 and 0))
-print( (1 or 1) or (1 or 1))
-print( (1 or 1) or (1 or 0))
-print( (1 or 0) or (1 or 0))
-print( (1 or 0) or (0 or 0))
+print( (1 and 1) and (1 and 1)) # True
+print( (1 and 1) and (1 and 0)) # False
+print( (1 or 1) or (1 or 1)) # True
+print( (1 or 1) or (1 or 0)) # True
+print( (1 or 0) or (1 or 0)) # True
+print( (1 or 0) or (0 or 0)) # True
+print( (1 or 0) and (1 or 0)) # True
+
+a, b, c, d = 1, 1, 1, 1
+print( (a or b) and (c or d))
+
+# XOR
+print(1 ^ 0)
+print(1 ^ 1)
+
+print( 1 & 1 )
+print( 3 & 2 ) # 10
+# 3: 11
+# 2: 10
+print( 3 | 2 ) # 11
+# 3: 11
+# 2: 10
+
+print( -5)
+# 5: 101
+# -5: 010
