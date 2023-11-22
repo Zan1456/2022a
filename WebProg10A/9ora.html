@@ -1,16 +1,93 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html lang="hu" data-bs-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>9. óra</title>
+  <title>Github</title>
   <link rel="stylesheet" href="9ora.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-  <h1>Cimsor</h1>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus doloribus in commodi voluptas rem minima nobis animi totam deleniti nostrum expedita nihil similique esse, vel placeat? Fugiat ea laborum tenetur!</p>
-  <div id="container">
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium quo iusto laborum in dolor voluptatibus, ipsum saepe incidunt. Excepturi accusamus, non amet consectetur porro dolores tempora quas dolor ipsum tempore.</p>
+  <nav class="navbar bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Github</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Repository</a>
+            </li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <br><br><br>
+  <div class="card text-center">
+    <div class="card-header">
+      Major update
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">New version avaliable</h5>
+      <p class="card-text">Please restart the application for updates to take effect.</p>
+      <a href="#" class="btn btn-primary">Restart</a>
+    </div>
+    <div class="card-footer text-body-secondary">
+      2 days ago
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6 mb-3 mb-sm-0">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Repositories</h5>
+          <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis impedit eum numquam fuga nisi? Accusantium vero sapiente natus consectetur autem inventore odit necessitatibus quaerat corporis fuga amet, nisi laborum ipsa!</p>
+          <a href="#" class="btn btn-primary">Jump</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Contact</h5>
+          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit blanditiis illum adipisci pariatur deleniti aspernatur, necessitatibus perferendis repellendus labore. Nulla dolores totam commodi? Facere, recusandae placeat iste eveniet aperiam sapiente.</p>
+          <a href="#" class="btn btn-primary">Jump</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-4">
+      <div id="list-example" class="list-group">
+        <a class="list-group-item list-group-item-action" href="#list-item-1">Informations</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-2">Releases</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-3">Issues</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-4">Pull requests</a>
+      </div>
+    </div>
+    <div class="col-8">
+      <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+        <h4 id="list-item-1">Informations</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, suscipit. Natus dolor corporis error dolorem omnis tempore cum totam libero maxime tenetur. Dolor illum quasi, voluptatum inventore enim harum officiis.</p>
+        <h4 id="list-item-2">Releases</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, quidem soluta minus inventore ut repellendus! Sit, eius tempore. Ea quidem iure repellat aliquid magnam, aliquam similique id illo ducimus. Soluta!</p>
+        <h4 id="list-item-3">Issues</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam omnis numquam odio dolores delectus eos accusamus consequuntur a totam, blanditiis enim incidunt architecto quidem ex atque, quo natus placeat nulla.</p>
+        <h4 id="list-item-4">Pull requests</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt expedita ducimus amet quis, sunt aliquid reprehenderit incidunt beatae a voluptatibus neque repudiandae veritatis fuga nobis impedit harum, dolore aliquam voluptas?</p>
+      </div>
+    </div>
   </div>
 </body>
 </html>
