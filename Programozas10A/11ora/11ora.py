@@ -15,6 +15,8 @@ palacsinta_lista = []
 for i in range(len(file_lista)):
     lista = file_lista[i].strip()
     lista_reszek = lista.split()
+    # lista_reszek=file_lista[i].strip().split()
+
     name_lista.append(lista_reszek[0])
 
     l = []
@@ -22,4 +24,4 @@ for i in range(len(file_lista)):
         l.append(int(lista_reszek[j]))
     palacsinta_lista.append(l)
 
-print(palacsinta_lista)
+print("Név\tJanuary\tFebruary\tMarch\tApril\tMay\tJune\tJuly\tAugust\tSeptember\tOctober\tNovember\tDecember")
