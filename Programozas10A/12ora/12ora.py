@@ -64,13 +64,10 @@ for i in range(len(name_list)):
 van = False
 for i in range(len(pancake_list)):
     ossz = pancake_list[i][0]
-    for j in range(12):
-        if ossz < pancake_list[i][j]:
-            if j == 11:
-                continue
-            elif pancake_list[i][j] > pancake_list[i][j+1]:
-                van = True
-                break
+    for j in range(11):
+        if ossz < pancake_list[i][j] and pancake_list[i][j] > pancake_list[i][j+1]:
+            van = True
+            break
 print(van)
 
 
