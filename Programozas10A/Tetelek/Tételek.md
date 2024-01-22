@@ -15,7 +15,7 @@ Ciklus I=1-től N-ig
 Ciklus vége
 ```
 
-![asd](Tetelek/osszegzes.png)
+![asd](osszegzes.png)
 
 ## Megszámlálás
 
@@ -32,7 +32,7 @@ Ciklus I=1-től N-ig
 Ciklus vége
 ```
 
-![asd](Tetelek/megszamlalas.png)
+![asd](megszamlalas.png)
 
 ## Legnagyobb érték
 
@@ -52,7 +52,7 @@ Ciklus I=2-től N-ig
 Ciklus vége
 ```
 
-![kep](Tetelek/legnagyobb.png)
+![kep](legnagyobb.png)
 
 ## Keresés
 
@@ -71,7 +71,7 @@ Ha VAN
     SORSZ:=I
 ```
 
-![kep](Tetelek/kereses.png)
+![kep](kereses.png)
 
 ## Eldöntés
 
@@ -88,7 +88,7 @@ Ciklus vége
 VAN := I <= N
 ```
 
-![asd](Tetelek/eldontes.png)
+![asd](eldontes.png)
 
 ## Kiválasztás
 
@@ -105,6 +105,6 @@ SORSZ := I
 ÉRTÉK := x[i]
 ```
 
-![asd](Tetelek/kivalasztas.png)
+![asd](kivalasztas.png)
 
 [Forrás](http://progalap.elte.hu/downloads/seged/eTananyag/lecke13_lap1.html)
