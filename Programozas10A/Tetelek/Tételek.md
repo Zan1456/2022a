@@ -105,6 +105,6 @@ SORSZ := I
 ÉRTÉK := x[i]
 ```
 
-![asd](Tetelek/kivalasztas.png)
+![asd](kivalasztas.png)
 
 [Forrás](http://progalap.elte.hu/downloads/seged/eTananyag/lecke13_lap1.html)
