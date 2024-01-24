@@ -60,3 +60,4 @@ def kiválasztás(l:list)->int:
     for i in range(len(l)):
         if l[i] == 0:
             return l[i], i
+
