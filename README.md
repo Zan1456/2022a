@@ -5,7 +5,7 @@
 ### Programozás
 
 - [ ] [Órák](https://github.com/Zan1456/2022a/tree/main/Programozas10A/%C3%93r%C3%A1k)
-- [X] [Programozási tételek](https://github.com/Zan1456/2022a/tree/main/Programozas10A/Tetelek)
+- [X] [Programozási tételek]([https://github.com/Zan1456/2022a/tree/main/Programozas10A/Tetelek](https://github.com/Zan1456/2022a/blob/main/Programozas10A/Tetelek/T%C3%A9telek.md))
 - [X] [Beanadó feldatok](https://github.com/Zan1456/2022a/tree/main/Programozas10A/Beadando)
 
 ### Webprogramozás
