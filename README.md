@@ -11,7 +11,7 @@
 ### Webprogramozás
 
 - [ ] [Órák](https://github.com/Zan1456/2022a/tree/main/WebProg10A/%C3%93r%C3%A1k)
-- [ ] [Dolgozatok](https://github.com/Zan1456/2022a/tree/main/WebProg10A/Dolgozatok)
+- [X] [Dolgozatok](https://github.com/Zan1456/2022a/tree/main/WebProg10A/Dolgozatok)
 - [X] [Érettségi feladatok](https://github.com/Zan1456/2022a/tree/main/WebProg10A/%C3%89retts%C3%A9gi%20feladatok)
 
 ### Távközlés
@@ -22,4 +22,4 @@
 
 ### Webprogramozás
 
-- [ ] [Órák](https://github.com/Zan1456/2022a/tree/main/WebProg09A)
+- [X] [Órák](https://github.com/Zan1456/2022a/tree/main/WebProg09A)
