@@ -1,0 +1,98 @@
+header.jumbotron{
+    background-image: url('pexels-miguel-3785932.png');
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position-y: center;
+    background-color: darkgrey;
+    padding: 15px;
+}
+
+header h1 {
+    padding: 50px;
+    text-align: right;
+    color: white;
+}
+
+div.row{
+    margin-bottom: 25px;
+}
+
+p {
+    margin: 10px;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+h2 {
+    color: darkslategrey;
+}
+
+.kep-jobb {
+    border-left: 15px solid darkgrey;
+    border-radius: 20px;
+    background-color: rgb(255, 238, 191);
+    padding: 35px 10px;
+    text-align: center;
+}
+
+.kep-bal {
+    border-right: 15px solid darkgrey;
+    border-radius: 20px;
+    background-color: rgb(255, 238, 191);
+    padding: 25px 10px;
+    text-align: center;
+}
+
+fieldset {
+    background-color: rgb(255, 238, 191);
+    margin: 20px;
+}
+
+legend {
+    background-color: darkgrey;
+    border-radius: 20px;
+    padding-left: 15px;
+    color:white;
+}
+
+.card {
+    margin: 5px;
+    padding: 10px;
+}
+
+input[type="range"] {
+    width: 75%;
+}
+
+table tr td:first-child {
+    text-align: right;
+    width: 33%;
+    padding-right: 10px;
+}
+
+#kmeret, #kido, #knev {
+    color: darkslategrey;
+    font-size: 150%;
+}
+
+footer.jumbotron {
+    background-image: url('pexels-miguel-3785932.png');
+    transform:scaleX(-1);
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position-y: center;
+    background-color: darkgrey;
+    padding: 10px;
+    margin: 0px;
+    font-style: italic;
+    text-align: center;
+}
+
+footer p {
+    transform:scaleX(-1);
+    color: white;
+}
+
+footer a[href] {
+    color:  rgb(255, 238, 191);
+}
