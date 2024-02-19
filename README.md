@@ -1,5 +1,7 @@
 # Navigálás
 
+## Mai feladat: [18. óra](https://github.com/Zan1456/2022a/tree/main/Programozas10A/%C3%93r%C3%A1k/18.%20%C3%B3ra)
+
 ## 10. osztály
 
 ### Programozás
