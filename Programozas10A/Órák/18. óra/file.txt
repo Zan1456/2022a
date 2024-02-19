@@ -1,4 +1,4 @@
 Gombóc: 10, 7, 8, 6, 4, 8, 2
 - További eladások -
-Fagyi
-Golyó
+Fagyi: 8, 6, 3, 7, 2, 6, 9
+Golyó: 1, 8, 12, 9, 10, 1, 4
