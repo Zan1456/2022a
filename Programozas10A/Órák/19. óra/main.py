@@ -53,7 +53,22 @@ print(i5)
 
 print("INPUT 6")
 inp6 = read("input6")
-inp6 = read("input6")
 in6 = process(inp6, 2, 12)
 i6 = atlag(in6)
 print(i6)
+
+
+print("INPUT 91")
+inp91 = read("input91")
+
+print("INPUT 92")
+inp92 = read("input92")
+
+print("INPUT 93")
+inp93 = read("input93")
+
+print("INPUT 94")
+inp94 = read("input94")
+
+print("INPUT 95")
+inp95 = read("input95")
