@@ -1,6 +1,6 @@
 # Programozási tételek
 
-> Frissítve 2024.02.26. 10:45
+> Frissítve 2024.02.26. 11:45
 
 ## Összegzés tétele
 
@@ -9,10 +9,9 @@
 - Változó: S (Tárolja az összeget)
 
 ```Python
-S := 0
-Ciklus I=1-től N-ig
-    S:=S+X[I]
-Ciklus vége
+s = 0
+for i in range(len(X)):
+    s += X[i]
 ```
 
 ![asd](osszegzes.png)
@@ -25,11 +24,10 @@ Ciklus vége
 - T: Igaz/Hamis értékű feltétel
 
 ```Python
-C:=0
-Ciklus I=1-től N-ig
-    Ha T(X[I])
-        C:=C+1
-Ciklus vége
+c = 0
+for i in range(len(X)):
+    if X[i]%2==0:
+        c += 1
 ```
 
 ![asd](megszamlalas.png)
@@ -42,14 +40,12 @@ Ciklus vége
 - MAXERT: Legnagyobb érték
 
 ```Python
-MAX := 1
-MAXERT := X[1]
-Ciklus I=2-től N-ig
-    Ha MAXERT<X[I]
-        MAX := I
-        MAXERT := X[I]
-    Elágazás vége
-Ciklus vége
+MaxÉrt = X[0]
+MaxIndex = 0
+for i in range(1, len(X)):
+    if(X[i] > MaxÉrt):
+        MaxÉrt = X[i]
+        MaxIndex = i
 ```
 
 ![kep](legnagyobb.png)
@@ -62,13 +58,14 @@ Ciklus vége
 - T: Hamis értékű változó
 
 ```Python
-I:=1
-Ciklus I≤N és nem T(X[I])
-    I:=I+1
-Ciklus vége
-VAN:=(I≤N)
-Ha VAN
-    SORSZ:=I
+N = len(X)-1
+i = 0
+while i <= N and not T(X[i]):
+    i += 1
+van = i <= N
+if van:
+    ind = i
+    ert = X[i]
 ```
 
 ![kep](kereses.png)
@@ -81,11 +78,11 @@ Ha VAN
 - T: Hamis értékű változó
 
 ```Python
-I := 1
-Ciklus I <= N és nem T(x[i])
-    I := I + 1
-Ciklus vége
-VAN := I <= N
+N = len(X)-1
+i = 1
+while i <= N and not T(X[i]):
+    i += 1
+van = i <= N
 ```
 
 ![asd](eldontes.png)
@@ -97,14 +94,12 @@ VAN := I <= N
 - T: Hamis értékű változó
 
 ```Python
-I := 1
-Ciklus amíg nem T(X[I])
-    I := I + 1
-Ciklus vége
-SORSZ := I
-ÉRTÉK := x[i]
+N = len(X)-1
+i = 0
+while not T(X[i]):
+    i += 1
+ind = i
+ert = X[i]
 ```
 
 ![asd](kivalasztas.png)
-
-[Forrás](http://progalap.elte.hu/downloads/seged/eTananyag/lecke13_lap1.html)

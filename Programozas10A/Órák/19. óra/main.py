@@ -10,6 +10,11 @@ def process(rows, first = 0, last = 0):
         numbers.append(int(rows[i].strip()))
     return numbers
 
+def cut(text, separator=" ", first=0, last=0):
+    row=text.split(separator)
+    numbers=process(row[first:len(row)-last])
+    return numbers
+
 def atlag(numbers):
     szum = 0
     for i in range(len(numbers)):
@@ -60,15 +65,34 @@ print(i6)
 
 print("INPUT 91")
 inp91 = read("input91")
+in91 = cut(inp91[0])
+i91 = atlag(in91)
+print(i91)
+
 
 print("INPUT 92")
 inp92 = read("input92")
+in92 = cut(inp92[0], first=1)
+i92 = atlag(in92)
+print(i92)
+
 
 print("INPUT 93")
 inp93 = read("input93")
+in93 = cut(inp93[0], first=1, last=1)
+i93 = atlag(in93)
+print(i93)
+
 
 print("INPUT 94")
 inp94 = read("input94")
+in94 = cut(inp94[0], first=2, last=1)
+i94 = atlag(in94)
+print(i94)
+
 
 print("INPUT 95")
 inp95 = read("input95")
+in95 = cut(inp95[0], ";", 2, 1)
+i95 = atlag(in95)
+print(i95)
