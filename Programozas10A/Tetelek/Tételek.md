@@ -1,6 +1,6 @@
 # Programozási tételek
 
-> Frissítve 2024.01.22. 19:00
+> Frissítve 2024.02.26. 10:45
 
 ## Összegzés tétele
 
