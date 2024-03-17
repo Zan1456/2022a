@@ -19,4 +19,4 @@
 
 ## Archívum
 
-- [X] [Link](https://github.com/Zan1456/2022a/tree/main/T%C3%A1vk%C3%B6zl%C3%A9s10A/Dolgozatok)
+- [X] [Link](https://github.com/Zan1456/2022a/tree/9.osztaly/Ach%C3%ADvum#readme)
