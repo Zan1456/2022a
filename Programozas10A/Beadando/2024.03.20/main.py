@@ -1,76 +1,62 @@
 # 1. feladat: Beolvasás
-def read(filename): #Beolvasás
-    file = open(filename, encoding="utf-8")
-    rows = file.readlines()
-    file.close()
-    return rows
-
-def process(rows, first = 0, last = 0): #Adatok javítása
-    numbers=[]
-    for i in range(first,len(rows)-last):
-        numbers.append(rows[i].strip())
-    return numbers
-
-def cut(text, separator=" ", first=0, last=0): #Adatok szeparálása
-    row=text.split(separator)
-    numbers=process(row[first:len(row)-last])
-    return numbers
-
-data = process(read("adat.txt"))
-cutted = []
-for i in range(len(data)):
-    cutted.append(cut(data[i]))
+file = open("adat.txt", encoding="utf-8")
+rows = file.readlines()
+file.close()
+data = []
+for i in range(len(rows)):
+    data.append(rows[i].strip().split())
 
 # 2. feladat: Eladások
-print(f"2. feladat\nA fájlban található tranzakciók (eladások) száma: {len(cutted)}")
+print(f"2. feladat\nA fájlban található tranzakciók (eladások) száma: {len(data)}")
 
 # 3. feladat: Összegzés
 szum = 0
-for i in range(len(cutted)):
-    szum += int(cutted[i][4])
+for i in range(len(data)):
+    szum += int(data[i][4])
 print(f"3. feladat\nÖsszes eladott termék száma: {szum}")
 
 # 4. feladat: Napi forgalom
+print("4. feladat")
 while True:
-    szam = int(input("Add meg a nap sorszámát [1...28]: "))
-    if 1 <= szam <= 28:
+    number = int(input("Add meg a nap sorszámát [1...28]: "))
+    if 1 <= number <= 28:
         break
 
-igaz = False
-for i in range(len(cutted)):
-    if int(cutted[i][0]) == szam:
-        print(f"{cutted[i][1]} {cutted[i][2]} {cutted[i][3]} {cutted[i][4]}")
-        igaz = True
-if igaz == False:
+f = False
+for i in range(len(data)):
+    if int(data[i][0]) == number:
+        print(f"{data[i][1]} {data[i][2]} {data[i][3]} {data[i][4]}")
+        f = True
+if f == False:
     print("A megadott napon nem volt forgalma a cégnek.")
 
 # 5. feladat: Bevételek munkatársanként
-M1 = 0
-M2 = 0
-M3 = 0
-M4 = 0
-for i in range(len(cutted)):
-    if cutted[i][2] == "M1":
-        M1 += int(cutted[i][4])
-    elif cutted[i][2] == "M2":
-        M2 += int(cutted[i][4])
-    elif cutted[i][2] == "M3":
-        M3 += int(cutted[i][4])
-    else:
-        M4 += int(cutted[i][4])
+print("5. feladat")
+prices = {"T1": 600, "T2": 750, "T3": 550, "T4": 650, "T5": 450}
+income = {"M1": 0, "M2": 0, "M3": 0, "M4": 0, "M5": 0}
+for i in range(len(data)): # Bevételek kiszámítása
+    income[data[i][2]] += int(data[i][4]) * prices[data[0][3]]
 
+for name,value in income.items(): # Bevételek kiírása
+    print(f"{name}: {value} Ft")
 
-
-
+for name,value in income.items(): # Legtöbb bevétel kiírása
+    if max(income.values()) == value:
+        print(f"A legtöbb bevételt az {name} kódú munkatárs generálta.")
 
 # 6. feladat: 
-hetek = []
-napok = ["hétfő", "kedd", "szerda", "csütörtök", "péntek", "szombat", "vasárnap"]
-for i in range(len(cutted)):
-    het = []
-    for j in range(28):
-        if not j+1 == int(cutted[j][0]):
-            het.append(j)
-            break
-    hetek.append(het)
-print(hetek)
+print("6. feladat\nTranzakciómentes napok:")
+days = {"1": False,"2": False,"3": False,"4": False,"5": False,"6": False,"7": False,"8": False,"9": False,"10": False,"11": False,"12": False,"13": False,"14": False,"15": False,"16": False,"17": False,"18": False,"19": False,"20": False,"21": False,"22": False,"23": False,"24": False,"25": False,"26": False,"27": False,"28": False}
+day_names = ["hétfő", "kedd", "szerda", "csütörtök", "péntek", "szombat", "vasárnap"]
+for i in range(len(data)): #Napok behatárolása
+    days[f"{data[i][0]}"] = True
+
+for week in range(4): #Lefuttatás hetente és naponta
+    without = []
+    for day in range(7):
+        if days[f"{((week)*7)+(day+1)}"] == False:
+            without.append(day)
+    print(f"{week+1}. hét: ", end="")
+    for j in range(len(without)):
+        print(day_names[without[j]], end=" ")
+    print()
