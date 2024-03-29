@@ -54,7 +54,7 @@ for i in range(len(data)): #Napok behatárolása
 for week in range(4): #Lefuttatás hetente és naponta
     without = []
     for day in range(7):
-        if days[f"{((week)*7)+(day+1)}"] == False:
+        if days[f"{(week*7)+(day+1)}"] == False:
             without.append(day)
     print(f"{week+1}. hét: ", end="")
     for j in range(len(without)):

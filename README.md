@@ -9,7 +9,7 @@
 
 ## Webprogramozás
 
-- [ ] [Órák](https://github.com/Zan1456/2022a/tree/main/WebProg10A/%C3%93r%C3%A1k)
+- [X] [Órák](https://github.com/Zan1456/2022a/tree/main/WebProg10A/%C3%93r%C3%A1k)
 - [X] [Dolgozatok](https://github.com/Zan1456/2022a/tree/main/WebProg10A/Dolgozatok)
 - [X] [Érettségi feladatok](https://github.com/Zan1456/2022a/tree/main/WebProg10A/%C3%89retts%C3%A9gi%20feladatok)
 
