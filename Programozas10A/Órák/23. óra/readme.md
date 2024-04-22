@@ -14,6 +14,6 @@
 1. Terminálból fájlnév ✔
 1. Beolvasás fügvény -> fájlnév atribútummal ✔
 1. Márciusban és Júnuisban összesítve ki volt a legügyesebb?
-1. Mennyi Zita éves átlaga?
+1. Mennyi Zita éves átlaga? ✔
 1. Annak lett az eredménye februárban 5db, ha tudjuk, hogy volt ilyen személy
 1. A márciusi átlag felfelé kerekítve értékénél volt-e rosszabban teljesített szeptemberben? Ha igen, ki?

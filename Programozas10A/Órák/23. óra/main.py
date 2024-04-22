@@ -20,8 +20,7 @@ def maxi(lista): #inp1, fel3 ✔
     for i in range(len(lista[1])):
         if maxx < int(lista[1][i][1]):
             maxi = i
-            maxx = int(lista[1][i][1])
-            
+            maxx = int(lista[1][i][1])   
     return lista[0][i]
 
 def atlag(lista): #inp1, fel4 ✔
@@ -34,11 +33,20 @@ def atlag(lista): #inp1, fel4 ✔
             got.append(lista[0][i])
     return got
 
-def osszatlag(lista): #inp1, fel5 es fel6 ✔
+def osszatlag(lista): #inp1, fel5 es fel6 / inp2, fel4 ✔
     egesz = []
-    osszeg = 0
     for i in range(len(lista[1])):
+        osszeg = 0
         for j in range(len(lista[1][i])):
+            osszeg += int(lista[1][i][j])
+        egesz.append(osszeg // int(len(lista[1][i])))
+    return egesz
+
+def maxim(lista): #inp2, fel3
+    egesz = []
+    for i in range(len(lista[1])):
+        osszeg = 0
+        for j in range(2):
             osszeg += int(lista[1][i][j])
         egesz.append(osszeg // int(len(lista[1][i])))
     return egesz
@@ -52,3 +60,5 @@ print(osszatlag(input1)[3])
 
 # Input2 fájl
 input2=read(sys.argv[2], 1, nameloc=12)
+
+print(osszatlag(input2)[0])
