@@ -21,4 +21,11 @@
 | Projektmenedzsment | 1 |
 
 ## Gyakorlati vizsga
+- A tanuló a gyakorlati vizsgatevékenység megkezdésekor mindhárom feladat leírását megkapja. A gyakorlati vizsgatevékenység végrehajtásához rendelkezésre álló idő egybefüggő 180 perc, azon belül az egyes feladatok megoldására fordított idő a tanuló döntése, az egyes feladatok megoldására javasolt időkeret 60-60-60 perc.
+
+### A) Weboldalak kódolása feladat
+
+### B) Programozás Pythonban feladat
+
+### C) Otthoni és kisvállalati hálózatok kialakítása feladat
 
