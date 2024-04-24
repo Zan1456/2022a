@@ -1,5 +1,7 @@
 # Navigálás
 
+> [Ágazati vizsga](https://github.com/Zan1456/2022a/tree/main/%C3%81gazati%20vizsga)
+
 ## Programozás
 
 - [X] [Órák](https://github.com/Zan1456/2022a/tree/main/Programozas/%C3%93r%C3%A1k)
