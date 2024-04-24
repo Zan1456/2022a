@@ -1,6 +1,12 @@
 # Ágazati vizsga
 
 ## Elméleti vizsga
+- A teszt feladatai lehetnek feleletválasztós feladatok (egyszeres választás, többszörös választás, válaszok illesztése)
+- A vizsgatevékenység végrehajtására rendelkezésre álló időtartam: 30 perc
+- A vizsgatevékenység aránya a teljes ágazati alapvizsgán belül: 10%
+- A vizsgatevékenység értékelésének szempontjai: Az értékelésben minden feladat 2 pontot ér. Részleges megoldásért részpontszám adható. Maximális pontszám nem adható, amennyiben a feladatra adott megoldás hibás választ is tartalmaz.
+- A vizsgatevékenység akkor eredményes, ha a tanuló a megszerezhető összes pontszám legalább 40%-át elérte.
+
 | Témakör | Kérdések száma |
 |---|---|
 | Elektronikai alapfogalmak, kapcsolódó fizikai törvények, alapvető elektronikai alkatrészek, elektromos mennyiségek mérési metódusai | 1 |
