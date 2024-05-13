@@ -1,4 +1,6 @@
-# 2024.04.29. 24. Óra
+# Ágazati feladatok
+
+> Frissítve: 2024.05.13.
 
 ## 1. feladat
 
