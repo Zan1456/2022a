@@ -1,0 +1,75 @@
+a:link {
+    color: rgb(40, 243, 0);
+}
+
+a:visited {
+    color: rgb(51, 153, 148);
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 3000%;
+}
+
+td {
+    border: 1px solid black;
+}
+
+td:nth-of-type(3) {
+    background-color: yellow;
+}
+
+td:nth-of-type(even) {
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+:first-letter {}
+
+:first-line {}
+
+:after
+
+::before
+
+:selected
+
+:root {} /* -Nincsen szüleje */
+
+:empty {} /* -Nincsen benne más elem */
+
+:only-child {} /* -Nincsen testvére */
+
+:only-of-type {} /* Nincsen hasonló típusú elem */
+
+:first-child {} /* -Első gyerek */
+
+:first-of-type {} /* Első ilyen típusú elem */
+
+:nth-child(m) {} /* -m egy szám, m-dik gyermek */
+
+:nth-of-type(m) {} /* m egy szám, m-dik ilyen típusú elem */
+
+:last-child {} /* -Utolsó gyermek */
+
+:last-of-type {} /* Utolsó ilyen típusú */
+
+/*
+a:active {}
+
+a:focus {}
+
+a:target {}
+
+a:enabled {}
+
+a:checked {}
+
+a:disabled {}
+*/

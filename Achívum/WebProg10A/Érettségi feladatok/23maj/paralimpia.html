@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Paralimpia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="paralimpia.css">
+    <script src="paralimpia.js"></script>
+</head>
+<body>
+    
+<div class="container-fluid">    
+    <nav id="top" class="navbar navbar-expand-sm bg-light justify-content-center">
+        <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="#bizottsag">Magyar Paralimpiai Bizottság</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#sportagak">Paralimpiai sportágak</a>
+        </li>
+        </ul>
+    </nav>
+</div>
+<div class="container">
+    <h1>Paralimpia<sup title="Forrás: https://hu.wikipedia.org/wiki/Paralimpiai_játékok">*</sup></h1>
+    <p>A paralimpiai játékok testi és értelmi fogyatékosok, sérültek számára rendezett nemzetközi sportversenyek az olimpiai játékok mintájára. A kerekesszékesek első versenyeit 1948-ban, az olimpiával párhuzamosan rendezték. 1960-tól vált rendszeressé a Fogyatékosok Világjátéka. 1992-től szervezetileg összekapcsolták az olimpiával, és annak a helyszínén, három héttel annak vége után rendezik meg. Az első téli paralimpiai játékokat 1976-ban rendezték Svédországban.</p>
+    <p>Nem tartozik a paralimpiához a siketlimpia és az értelmi fogyatékos sportolók számára rendezett speciális olimpia. Az egyenlő esélyek biztosítása érdekében a sportolókat kategóriákba osztják. A mozgássérülteknek több kategóriájuk van. Van kategóriája a látássérülteknek és a kisnövésűeknek is, de az értelmi fogyatékosokat és a hallássérülteket is az egyéb kategóriába sorolják. Ezért nem vesznek részt siket sportolók a paralimpián.</p>
+    
+    <h2 id="bizottsag">Magyar Paralimpiai Bizottság</h2>
+    <div class="row">
+        <div class="col-lg-6">
+            <h3>Történet</h3>
+            <p>Hazánkban 1929-től származtatható a mozgáskorlátozottak sportja. A „Mozgásjavító” Általános Iskola és Diákotthon jogelődje a „Nyomorék Gyermekek Országos Otthona” (1903) tanulói számára az ott dolgozó orvosok és pedagógusok felismerik a sport rehabilitációs értékét és embert formáló  erejét. Ennek a felismerésnek érdekében 1929-ben megalakítják a Nyomorékok Sport Egyesületét (NYSE).  A rendszeres iskolai gyógytorna és a sportfoglalkozások, a háziversenyeken keresztül jutnak el az „épek integrált” budapesti sportversenyeihez asztalitenisz, atlétika és a labdarúgás sportágakban.</p>
+            <p>A II. világháborút követően az Otthonban megszüntetik a magas, európai elismertséggel működő  komplex rehabilitációs tevékenységet, és egyben az intézmény együttest, célját, feladatait és a  tartalmi munkát szétrombolják. Az Otthon európai hírnevét a tanítás-gyógyítás-képzés mellett a sport komplex terápiás ellátásának is köszönhette.</p>
+            <p>Egészen az 1960-as, 70-es évekig mozgássérültnek lenni Magyarországon egyet jelentett a PERSONA NON GRATA státusszal. Az egyéni próbálkozásokat követően Fejes András, az első magyar paralimpiai érem megszerzője (1972. Heidelberg, atlétika bronzérem) és Tauber Zoltán, az első magyar paralimpiai aranyérem megszerzője (1976. Torontó, asztalitenisz) közreműködésével az akkori Mozgásjavító Általános Iskola és Diákotthon tanárai és diákjai 1970. február 22-én megalakítják a Mozgáskorlátozottak Halassy Olivérről, a lábszáramputált kétszeres olimpiai bajnokról elnevezett Sportegyesületét (Halassy Olivér Sport Egyesület).</p>
+            <p>A bizottság teljes története a <a href="https://hparalimpia.hu/tortenet" target="_blank">https://hparalimpia.hu/tortenet</a> oldalon olvasható...</p>
+        </div>
+        <div class="col-lg-6">
+            <h3>Logó</h3>
+            <img src="mpb-group-logo.svg" class="mx-auto d-block w-50 my-3" alt="A Magyar Paralimpiai Bizottság logója" title="A Magyar Paralimpiai Bizottság logója">
+            <h3>Pályázat</h3>
+            <p>A „BOM a Magyar Sportért” Közhasznú Alapítvány a kiemelkedő sporttevékenységet folytató diákok részére, tanulmányaik eredményességének elősegítése céljából ösztöndíj pályázatot hirdet. A Magyar Olimpiai Bizottság és a Magyar Paralimpiai Bizottság, mint az Alapítvány stratégiai partnerei és főtámogatói, aktívan részt vesznek a pályázat lebonyolításában.</p>
+            <p>Az ösztöndíjra az a diák pályázhat, aki: 
+                <ul>
+                    <li>olimpiai, vagy paralimpiai sportágban szerepel, és a saját sportági szakszövetsége együttműködési megállapodást kötött a „BOM a Magyar Sportért” Közhasznú Alapítvánnyal</li> 
+                    <li>olimpiai, vagy paralimpiai kerettag, illetve a pályázat évét követő legközelebbi olimpiai, illetve paralimpiai játékokon történő részvételre készül;</li> 
+                    <li> iskolarendszerű (tanulói vagy hallgatói jogviszony keretében folytatott) közoktatási intézmény által nyújtott oktatásban, illetve középfokú képzésben (OKJ-s) vesz részt.</li>
+                </ul>
+            </p>
+        </div>
+    </div>
+
+    <h2 id="sportagak">Sportágak</h2>
+    <div class="row">
+        <div class="col-md-3">
+            <h3>Nyári</h3>
+            <script>sportagak("nyari");</script>
+        </div>
+        <div class="col-md-8">
+            <fieldset>
+                <legend id="sportag">Asztalitenisz</legend>
+                <img src="sportagkepek/nyari/p0.png" alt="Asztalitenisz" title="Asztalitenisz" id="piktogram">
+                <p id="evszak">Nyári paralimpiai sportág</p>
+                <p id="leiras">Az asztalitenisz már az első paralimpián (1960-ban, Rómában) a program része volt. Ezen a versenyen 10 ország, 35 versenyzője 11 versenyszámban mérte össze tudását. A 2016. évi riói paralimpia asztalitenisz versenyein már 47 ország  269 versenyzője 29 versenyszámban vetélkedett az érmekért.  Az asztalitenisz sportág rendkívüli fejlődését és töretlen népszerűségét, mutatja a nemzetközi szövetség (IPC) nyilvántartásának globális adatbázisa is, amely szerint ma már több mint 130 országban, közel 5400 asztalitenisz parasportolót tartanak nyilván. A nemzetközi versenyzői nyilvántartásba hazánk részéről ez idáig összesen 80 asztaliteniszező került be. A para asztalitenisz térhódítása mind az 5 földrészen kiteljesedett, világméretűvé vált.</p>
+                <p><a href="https://hparalimpia.hu/sportagak" target="_blank" title="A sportágak bővebb leírásához kattintson a linkre!">...</a></p>
+            </fieldset>            
+        </div>
+        <div class="col-md-1 text-right">
+            <h3>Téli</h3>
+            <script>sportagak("teli")</script>
+        </div>
+    </div>
+</div>
+</body>
+</html>
