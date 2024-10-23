@@ -1,4 +1,4 @@
-# Introduction to Networks ( Version 7.00) – Modules 14 – 15 Exam HUN key
+# Introduction to Networks (Version 7.00) – Modules 14 – 15 Exam HUN key
 
 | Kérdés | Válasz |
 |--------|--------|
