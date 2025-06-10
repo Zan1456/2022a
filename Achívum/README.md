@@ -2,7 +2,7 @@
 
 ## 11. osztály
 
-> [Hálózat](https://github.com/Zan1456/2022a/tree/main/Ach%C3%ADvum/%C3%81gazati%20vizsga10A)
+> [Hálózat](https://github.com/Zan1456/2022a/tree/main/Ach%C3%ADvum/H%C3%A1l%C3%B3zat11A)
 
 ## 10. osztály
 
