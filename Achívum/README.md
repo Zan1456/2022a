@@ -1,5 +1,9 @@
 # Navigálás
 
+## 11. osztály
+
+> [Hálózat](https://github.com/Zan1456/2022a/tree/main/Ach%C3%ADvum/%C3%81gazati%20vizsga10A)
+
 ## 10. osztály
 
 > [Ágazati vizsga](https://github.com/Zan1456/2022a/tree/main/Ach%C3%ADvum/%C3%81gazati%20vizsga10A)
